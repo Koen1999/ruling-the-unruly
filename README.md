@@ -85,6 +85,11 @@ Additionally, we add a threshold limit to prevent alert flooding.
 
 Most time spent adjusting these rules went into the LUA scripts, and changing nitpicky details such as rule names and SIDs.
 
+## suricata-check
+
+In addition to this repository, we suggest you check out [`suricata-check`](https://github.com/Koen1999/suricata-check), which is another output of our research.
+This command line tool can be used to receive feedback on Suricata rules to detect issues related to the design principles and other issues relating to various aspects such as performance, metadata, and many others.
+
 ## Citations
 
 If you use the rules, or otherwise draw from this work, please cite the following paper:
